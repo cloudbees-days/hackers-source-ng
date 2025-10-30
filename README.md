@@ -1,7 +1,3 @@
-# ###########################################################
-# PLEASE NOTE:  workflow.yaml in root to copy
-# ###########################################################
-
 # PROJECT_NAME
 
 This app is a Vue.js-based clone of [Hacker News](https://hn.ycombinator.com).

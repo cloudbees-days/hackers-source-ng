@@ -243,7 +243,7 @@ jobs:
           # Dynamic CloudBees context variables
           COMPONENT_ID="${{ cloudbees.component.id }}"
           ORG_ID="${{ cloudbees.org.id }}"
-          ENDPOINT_ID="${env.ENDPOINT_ID}"
+          ENDPOINT_ID="REPLACE_ME_ENDPOINT_ID"
           BRANCH_NAME="${{ cloudbees.scm.branch }}"
 
           echo "🔍 Using component: $COMPONENT_ID"
@@ -432,7 +432,7 @@ jobs:
           # Dynamic CloudBees context variables (same as security-check)
           COMPONENT_ID="${{ cloudbees.component.id }}"
           ORG_ID="${{ cloudbees.org.id }}"
-          ENDPOINT_ID="${env.ENDPOINT_ID}"
+          ENDPOINT_ID="REPLACE_ME_ENDPOINT_ID"
           BRANCH_NAME="${{ cloudbees.scm.branch }}"
 
           # Build API URL with branch name
