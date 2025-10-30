@@ -598,3 +598,4 @@ jobs:
           target-environment: "REPLACE_ME_ENV"
     needs:
       - security-gate
+      - build-container-image
