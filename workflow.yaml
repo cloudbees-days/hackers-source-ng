@@ -248,6 +248,7 @@ jobs:
 
           echo "🔍 Using component: $COMPONENT_ID"
           echo "🔍 Using branch: $BRANCH_NAME"
+          echo " 🔍 Using organization: $ORG_ID"
 
           # Build CloudBees Unify REST API URL with branch name
           API_URL="https://api.cloudbees.io/v1/resources/${ORG_ID}/endpoints/${ENDPOINT_ID}/asset-store/components/${COMPONENT_ID}/branches/${BRANCH_NAME}/issues"
