@@ -242,7 +242,7 @@ jobs:
 
           # Dynamic CloudBees context variables
           COMPONENT_ID="${{ cloudbees.component.id }}"
-          ORG_ID="${{ cloudbees.org.id }}"
+          ORG_ID="REPLACE_ME_ORG_ID"
           ENDPOINT_ID="REPLACE_ME_ENDPOINT_ID"
           BRANCH_NAME="${{ cloudbees.scm.branch }}"
 
@@ -432,7 +432,7 @@ jobs:
 
           # Dynamic CloudBees context variables (same as security-check)
           COMPONENT_ID="${{ cloudbees.component.id }}"
-          ORG_ID="${{ cloudbees.org.id }}"
+          ORG_ID="REPLACE_ME_ORG_ID"
           ENDPOINT_ID="REPLACE_ME_ENDPOINT_ID"
           BRANCH_NAME="${{ cloudbees.scm.branch }}"
 
