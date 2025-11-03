@@ -251,7 +251,7 @@ jobs:
           echo " 🔍 Using organization: $ORG_ID"
 
           # Build CloudBees Unify REST API URL with branch name
-          API_URL="https://api.cloudbees.io/v1/resources/${ORG_ID}/endpoints/${ENDPOINT_ID}/asset-store/components/${COMPONENT_ID}/branches/${BRANCH_NAME}/issues"
+          API_URL="REPLACE_ME_UNIFY_API/v1/resources/${ORG_ID}/endpoints/${ENDPOINT_ID}/asset-store/components/${COMPONENT_ID}/branches/${BRANCH_NAME}/issues"
           echo "✅ CloudBees Unify API URL: $API_URL"
 
           # Make vulnerability API call
@@ -437,7 +437,7 @@ jobs:
           BRANCH_NAME="${{ cloudbees.scm.branch }}"
 
           # Build API URL with branch name
-          API_URL="https://api.cloudbees.io/v1/resources/${ORG_ID}/endpoints/${ENDPOINT_ID}/asset-store/components/${COMPONENT_ID}/branches/${BRANCH_NAME}/issues"
+          API_URL="https://REPLACE_ME_UNIFY_API/v1/resources/${ORG_ID}/endpoints/${ENDPOINT_ID}/asset-store/components/${COMPONENT_ID}/branches/${BRANCH_NAME}/issues"
 
           echo "🎯 Deploy Job Advancement Tracking:"
           echo "   - Current Status: BLOCKED (security-gate running)"
